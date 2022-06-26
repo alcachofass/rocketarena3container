@@ -9,3 +9,4 @@ services:
     volumes:
       - "${PWD}/arena:/usr/lib/ioquake3/arena"
       - "${PWD}/baseq3:/usr/lib/ioquake3/baseq3"
+      - "${PWD}/ra3server.sh:/usr/lib/ioquake3/arena/ra3server.sh"
